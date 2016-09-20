@@ -15,21 +15,21 @@ La différence est la suivante :
 
 ---
 
-Here's a quiz about markdown images.
+Ici un quizz a propos des images en markdown.
 
-Select the valid images:
+Choisissez les images valides:
 - [ ] `[Google logo](https://www.google.ru/logo.png)`
 - [x] `![](https://www.google.ru/logo.png)`
 
-> Images must be prefixed with an exclamation mark.
-The alternative text and a title are optional.
+> Les images doivent être préfixé avec un point d'exclamation.
+Le texte alternatif et le titre sont optionnel.
 
-What is true about the following line: ```![Funny cat](http://cats.ru/funny.png "Share this")```
-- [x] if the url is 404, "Funny cat" will be displayed
-- [ ] exclamation mark can be omitted in this case
-- [ ] if the url is 404, "Share this" will be displayed
-- [x] on mouse over the image "Share this" will be displayed
+Qu'est ce qui est vrai a propos de la ligne suivante: ```![Funny cat](http://cats.ru/funny.png "Share this")```
+- [x] si l'url est 404, "chat fun" sera affiché
+- [ ] Le point d'exclamation peut être ommis dans ce cas
+- [ ] Si l'url est 404, "Partager ceci" sera affiché
+- [x] Au survol de la souris sur l'image "Partager ceci" sera affiché
 
-> Similarly to links, images can have 3 parts: the alternative text, the url and a title. An exclamation mark is nesessary.
+> De la même manière que pour les liens, les images ont 3 parties: un texte alternatif, une url et un titre. le point d'exclamation est necessaire.
 
 ---

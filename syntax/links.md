@@ -1,33 +1,33 @@
 # Links
 
-Markdown supports two styles of links: inline and reference.
+Markdown supporte deux styles de liens: en ligne et référence.
 
-In both styles, the link text is delimited by [square brackets].
+Pour les deux styles, le lien texte est délimité par des [crochets].
 
-To create an inline link, use a set of regular parentheses immediately after the link text’s closing square bracket. Inside the parentheses, put the URL where you want the link to point, along with an optional title for the link, surrounded in quotes. For example:
+Pour créer un lien en ligne, utilisez une paire de parentheses régulière immédiatement après le lien texte fermant les crochets. A l'intérieur des parentheses, mettez l'url ou vous voulez que le lien pointe, avec un titre optionnel pour le lien entouré de guillemets. Par exemple:
 ```markdown
-[I'm an inline-style link](https://www.google.com)
+[Je suis un lien en ligne](https://www.google.com)
 
-[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
+[Je suis un lien en ligne avec un titre](https://www.google.com "Google's Homepage")
 
-[I'm a reference-style link][Arbitrary case-insensitive reference text]
+[Je suis un lien de référence][Texte de référence insensible à la casse]
 
-[I'm a relative reference to a repository file](../blob/master/LICENSE)
+[Je suis un lien relatif vers un répertoire de fichiers](../blob/master/LICENSE)
 ```
 
-Reference-style links use a second set of square brackets, inside which you place a label of your choosing to identify the link:
+Les liens de référence utilisent une seconde paire de crochets, a l'intérieur desquels vous pouvez mettre un label que vous choisissez pour identifié le lien:
 ```markdown
-This is [an example][id] reference-style link.
+Ceci est [un exemple][id] de lien de référence.
 ```
 
-You can optionally use a space to separate the sets of brackets:
+Vous pouvez optionnellement utiliser un espace pour séparer les paires de crochets:
 ```markdown
-This is [an example] [id] reference-style link.
+Ceci est [un exemple] [id]  de lien de référence.
 ```
 
-Then, anywhere in the document, you define your link label like this, on a line by itself:
+Ensuite, partout dans le document, vous pouvez définir vos label de lien comme ceci, sur une ligne:
 ```markdown
-[id]: http://example.com/  "Optional Title Here"
+[id]: http://exemple.com/  "Ici titre optionnel"
 ```
 
 **GitHub** and **GitBook** supports URL autolinking. They will autolink standard URLs, so if you want to link to a URL (instead of setting link text), you can simply enter the URL and it will be turned into a link to that URL.
